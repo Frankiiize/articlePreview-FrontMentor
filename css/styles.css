@@ -1,3 +1,26 @@
+/* -----------utilities----------- */
+/* --------Colors!!! */
+/* --------Fotns!!! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.d-none {
+  display: none;
+}
+
+/* -----------/utilities----------- */
+/* -----------components----------- */
+/* -----------/components----------- */
 
 /*# sourceMappingURL=styles.css.map */

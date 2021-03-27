@@ -4,28 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Article preview component</title>
 
 </head>
 <body>
+  <section class="cardContainer">
+      <figure class="cardContainer_photo">
+        <img width="300px" src="images/drawers.jpg" alt="Article picture">
+      </figure>
+    <div class="cardContainer_description">
+      <h2>
+        Shift the overall look and feel by adding these wonderful 
+        touches to furniture in your home
+      </h2>
+      <p>
+        Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+      </p>
+    </div>
+    <div class="cardContainer_share">
+      <div class="cardContainer_share__show">
+          <img class="" width="50px" src="images/avatar-michelle.jpg" alt="">
+          <div class="cardContainer_share__show__user">
+            <h3>Michelle Appleton</h3>
+            <span>28 Jun 2020</span>
+          </div>
+          <i class="shareIcon">Share</i>
+      </div>
+      <div class="cardContainer_share__tooltip d-none">
+        <h3 class="cardContainer_share__tooltip__title">Share</h3>
+        <div class="cardContainer_share__tooltip__social">
+          <i class="iconFacebook">F</i>
+          <i class="iconTwitter">T</i>
+          <i class="iconPinterest">P</i>
+        </div>
+        <i class="shareIcon">Share</i>       
+      </div>
+    </div>
+  </section>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
