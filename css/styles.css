@@ -19,8 +19,121 @@ body {
   display: none;
 }
 
+.cardContainer__share__tooltip {
+  background-color: #48556a;
+}
+
+.iconPinterest, .iconTwitter, .iconFacebook, .shareIcon {
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.shareIcon {
+  width: 15px;
+  height: 13px;
+  /*  filter: grayscale(1) contrast(0) brightness(2.5); */
+  background-image: url("../../images/icon-share.svg");
+}
+
+.iconFacebook {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/icon-facebook.svg");
+}
+
+.iconTwitter {
+  width: 20px;
+  height: 17px;
+  background-image: url("../../images/icon-twitter.svg");
+}
+
+.iconPinterest {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/icon-pinterest.svg");
+}
+
 /* -----------/utilities----------- */
 /* -----------components----------- */
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf2f8;
+}
+
+.cardContainer {
+  width: 90%;
+  display: grid;
+  grid-template-columns: minmax(300px, 500px);
+  grid-template-rows: auto;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+.cardContainer__photo {
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.cardContainer__photo img {
+  width: 100%;
+}
+.cardContainer__description {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 100%;
+  display: flex;
+  min-height: 200px;
+  justify-content: center;
+}
+.cardContainer__description__text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: space-evenly;
+}
+.cardContainer__description__text h2 {
+  font-size: 1.6rem;
+  color: #48556a;
+  font-weight: 700;
+}
+.cardContainer__description__text p {
+  word-spacing: 1.6px;
+  color: #9eafc2;
+  font-size: 1.3rem;
+}
+.cardContainer__share {
+  width: 100%;
+  height: 60px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.cardContainer__share__show {
+  grid-column: 1/1;
+  grid-row: 1/2;
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cardContainer__share__show img {
+  width: 50px;
+  height: 50px;
+}
+.cardContainer__share__tooltip {
+  grid-column: 1/1;
+  grid-row: 1/2;
+}
+
 /* -----------/components----------- */
 
 /*# sourceMappingURL=styles.css.map */
