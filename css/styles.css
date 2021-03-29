@@ -228,6 +228,28 @@ body {
   border-color: #6d7f97;
 }
 
+@media only screen and (min-width: 1000px) {
+  .cardContainer {
+    grid-template-columns: 287px 1fr;
+    grid-template-rows: 200px 1fr;
+  }
+  .cardContainer__photo {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+  .cardContainer__photo img {
+    object-fit: cover;
+  }
+  .cardContainer__description {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .cardContainer__share {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+}
 /* -----------/components----------- */
 
 /*# sourceMappingURL=styles.css.map */
