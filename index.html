@@ -39,20 +39,21 @@
               <span>28 Jun 2020</span>
             </div>
           </div>
-        <div onclick="showTooltip()" class="cardContainer__share__show__icon"><i class="shareIcon "></i></div>
+        <button aria-label="share button" onclick="showTooltip()" class="cardContainer__share__show__icon"><i class="shareIcon "></i></button>
       </div>
     </div>
     <div  id="tooltip" class="d-none"  >
       <div class="cardContainer__share__tooltip__container">
         <div class="cardContainer__share__tooltip__container__social">
           <h3>Share</h3>
-          <a href="https://facebook.com/" target="_blank"><i class="iconFacebook"></i></a>
-          <a href="https://twitter.com/" target="_blank"><i class="iconTwitter"></i></a>
-          <a href="https://www.pinterest.cl/" target="_blank"><i class="iconPinterest"></i></a>
+          <a aria-label="go facebook" rel="noopener" href="https://facebook.com/" target="_blank"><i class="iconFacebook"></i></a>
+          <a aria-label="go twitter" rel="noopener" href="https://twitter.com/" target="_blank"><i class="iconTwitter"></i></a>
+          <a aria-label="go pinterest" rel="noopener" href="https://www.pinterest.cl/" target="_blank"><i class="iconPinterest"></i></a>
           </div>
           <div class="cardContainer__share__tooltip__icon">
             <i onclick="hideTooltip()" class="shareIcon-white"></i>  
           </div>
+          <div class="tooltipArrowDown"></div>
       </div>     
     </div>
   </section>
