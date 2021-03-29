@@ -244,14 +244,29 @@ body {
   }
   .cardContainer__photo img {
     object-fit: cover;
+    object-position: left;
   }
   .cardContainer__description {
     grid-column: 2/3;
     grid-row: 1/2;
+    margin-top: 0;
+  }
+  .cardContainer__description__text h2 {
+    font-size: 2rem;
+  }
+  .cardContainer__description__text p {
+    font-size: 1.3rem;
+    word-spacing: initial;
   }
   .cardContainer__share {
     grid-column: 2/3;
     grid-row: 2/3;
+  }
+  .cardContainer__share__show {
+    align-items: flex-start;
+  }
+  .cardContainer__share__show__user {
+    align-items: flex-start;
   }
   .cardContainer__share__tooltip {
     max-width: 250px;
