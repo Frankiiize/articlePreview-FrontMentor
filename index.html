@@ -32,25 +32,32 @@
     </div>
     <div class="cardContainer__share">
       <div class="cardContainer__share__show">
-          <img class="" width="50px" src="images/avatar-michelle.jpg" alt="">
-          <div class="cardContainer_share__show__user">
-            <h3>Michelle Appleton</h3>
-            <span>28 Jun 2020</span>
+        <div class="cardContainer__share__show__user">
+            <img class=""  src="images/avatar-michelle.jpg" alt="">
+            <div class="cardContainer__share__show_ _user__data">
+              <h3>Michelle Appleton</h3>
+              <span>28 Jun 2020</span>
+            </div>
           </div>
-          <i class="shareIcon"></i>
+        <div onclick="showTooltip()" class="cardContainer__share__show__icon"><i class="shareIcon "></i></div>
       </div>
-      <div class="cardContainer__share__tooltip d-none ">
-        <h3 class="cardContainer_share__tooltip__title">Share</h3>
-        <div class="cardContainer_share__tooltip__social">
-          <i class="iconFacebook"></i>
-          <i class="iconTwitter"></i>
-          <i class="iconPinterest"></i>
-        </div>
-        <i class="shareIcon"></i>       
+      <div  id="tooltip"  class="d-none">
+        <div class="cardContainer__share__tooltip__container">
+          <div class="cardContainer__share__tooltip__container__social">
+            <h3>Share</h3>
+            <i class="iconFacebook"></i>
+            <i class="iconTwitter"></i>
+            <i class="iconPinterest"></i>
+            </div>
+            <div class="cardContainer__share__tooltip__container__icon">
+              <i onclick="hideTooltip()" class="shareIcon-white"></i>  
+            </div>
+
+        </div>     
       </div>
     </div>
   </section>
   </div>
-
+<script src="src/cardScript.js"></script>
 </body>
 </html>
