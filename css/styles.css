@@ -45,7 +45,7 @@ body {
 .shareIcon, .shareIcon-white {
   width: 20px;
   height: 20px;
-  background-image: url("../../images/icon-share.svg");
+  background-image: url("../images/icon-share.svg");
 }
 
 .shareIcon-white {
@@ -55,19 +55,19 @@ body {
 .iconFacebook {
   width: 20px;
   height: 20px;
-  background-image: url("../../images/icon-facebook.svg");
+  background-image: url("../images/icon-facebook.svg");
 }
 
 .iconTwitter {
   width: 20px;
   height: 20px;
-  background-image: url("../../images/icon-twitter.svg");
+  background-image: url("../images/icon-twitter.svg");
 }
 
 .iconPinterest {
   width: 20px;
   height: 20px;
-  background-image: url("../../images/icon-pinterest.svg");
+  background-image: url("../images/icon-pinterest.svg");
 }
 
 /* -----------/utilities----------- */
